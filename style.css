@@ -20,11 +20,13 @@ body {
 .image-area {
     border-radius: 50%;
     overflow: hidden;
-    max-width: 220px;
+    max-width: 250px;
+    border: 5px solid #73946d;
 }
 
 .profile-image {
-    width: 220px;   
+    width: 250px;   
+    
 }
 
 
@@ -49,27 +51,24 @@ body {
 
 .about {
     width: 50%;
+    
 
 }
 
 .about-me {
     margin: 60px auto;
-    max-width: 300px;
     text-align: center;
     line-height: 1.5rem;
     font-weight: 500;  
-    min-width: 162px;
-
+    min-width: 110px;
+    background-color: rgb(115, 148, 109, 0.1);
+    border-radius: 15px;
+    padding: 8px;
+    border: 1px solid rgb(115, 148, 109, 0.2);
+    
 }
 
-@media (max-width: 700px) {
-    .about-me {
-        margin-top: 5px;
-        
-    }
 
-   
-}
 
 .introducing {
     display: flex;
@@ -78,6 +77,18 @@ body {
     align-items: center;
 }
 
+@media (max-width: 700px) {
+    .about-me {
+        margin-top: 15px;
+         
+    }
+
+    .introducing {
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+   
+}
 
 
 
@@ -176,8 +187,9 @@ body {
 }
 
 .contact:hover {
-    background-color:rgb(36, 98, 77, 0.7);
-    color: white;
+    background-color:rgba(13, 17, 16, 0.3);
+    color: rgb(14, 13, 13);
+    cursor: pointer;
 }
 
 .contact img {
@@ -197,10 +209,10 @@ body {
     text-align: center;
 }
 
-.languages .bar1 span { background: green; width: 100%; }
-.languages .bar2 span { background: green; width: 98%; }
-.languages .bar3 span { background: green; width: 70%; }
-.languages .bar4 span { background: green; width: 50%; }
+.languages .bar1 span { background: rgb(58, 162, 219); width: 100%; }
+.languages .bar2 span { background: rgb(58, 162, 219); width: 98%; }
+.languages .bar3 span { background: rgb(58, 162, 219); width: 70% }
+.languages .bar4 span { background: rgb(58, 162, 219);  width: 50%; }
 
 a {
     text-decoration: none;
