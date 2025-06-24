@@ -21,7 +21,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     max-width: 250px;
-    border: 5px solid #73946d;
+    border: 2px solid rgb(85, 86, 85);
 }
 
 .profile-image {
@@ -49,25 +49,6 @@ body {
     
 }
 
-.about {
-    width: 50%;
-    
-
-}
-
-.about-me {
-    margin: 60px auto;
-    text-align: center;
-    line-height: 1.5rem;
-    font-weight: 500;  
-    min-width: 110px;
-    background-color: rgb(115, 148, 109, 0.1);
-    border-radius: 15px;
-    padding: 8px;
-    border: 1px solid rgb(115, 148, 109, 0.2);
-    
-}
-
 
 
 .introducing {
@@ -75,6 +56,7 @@ body {
     flex-direction: column;
     margin-right: 50px;
     align-items: center;
+    margin: 0 auto;
 }
 
 @media (max-width: 700px) {
@@ -134,12 +116,10 @@ body {
     .bar3 span { background: #90c9c8; width: 70%; }
     .bar4 span { background: #df8992; width: 85%; }
     .bar5 span { background: #bfa6c8; width: 80%; }
-    .bar6 span { background: #90c9c8; width: 70%; }
+    .bar6 span { background: #90c9c8; width: 50%; }
     .bar7 span { background: #df8992; width: 100%; }
-    .bar8 span { background: #bfa6c8; width: 80%; }
+    .bar8 span { background: #bfa6c8; width: 50%; }
    
-
-
 
 
 .technical-skills {
